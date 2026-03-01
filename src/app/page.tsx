@@ -28,7 +28,7 @@ export default function AviationPage() {
           setError(data.error);
           setFlights([]);
         } else {
-          setFlights(data.data.slice(0, 20)); // first 20 flights
+          setFlights(data.data.slice(0, 20)); 
         }
       } catch (err) {
         console.error(err);
